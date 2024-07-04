@@ -55,6 +55,22 @@
   margin: 0 auto;
 } */
 
+.carousel-caption {
+  color: black;
+  /* Colore predefinito per tutte le didascalie */
+}
+
+.carousel-caption>* {
+  font-family: fantasy;
+  font-size: x-large;
+}
+
+.carousel-caption>h5 {
+  font-size: xx-large;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
 .carousel-item img {
   max-width: 600px;
   /* max-height: 200px; */
@@ -63,6 +79,8 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+
 
 
 
