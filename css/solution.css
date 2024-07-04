@@ -41,9 +41,31 @@
   width: 600px;
 }
 
-.carousel-caption {
-  color: "red";
+/* 
+.carousel-item carousel-caption {
+  color: "green" !important;
+} */
+
+/* 
+.carousel-item {
+  text-align: center;
 }
+
+.carousel-item img {
+  margin: 0 auto;
+} */
+
+.carousel-item img {
+  max-width: 600px;
+  /* max-height: 200px; */
+  /* Cambia l'altezza massima secondo necessità */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 
 /* .carousel .item.left img{
   width: 100% !important;
