@@ -72,7 +72,7 @@
 }
 
 .carousel-item img {
-  max-width: 600px;
+  max-width: 300px;
   /* max-height: 200px; */
   /* Cambia l'altezza massima secondo necessità */
   display: block;
