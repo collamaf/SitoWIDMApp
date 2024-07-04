@@ -61,13 +61,13 @@
 }
 
 .carousel-caption>* {
-  font-family: fantasy;
+  font-family: monospace;
   font-size: x-large;
 }
 
 .carousel-caption>h5 {
   font-size: xx-large;
-  font-family: fantasy;
+  /* font-family: fantasy; */
   font-weight: bold;
 }
 
