@@ -61,7 +61,15 @@
 
     </div>
   </div> -->
-
+  <script>
+    function redirectToSite1() {
+      window.open("https://pubmed.ncbi.nlm.nih.gov/34704618/")
+      // window.location.href = "https://www.google.com";
+    }
+    function redirectToSite2() {
+      window.open("https://pubmed.ncbi.nlm.nih.gov/37747087/")
+    }
+  </script>
 
   <!-- Testimonial -->
   <section id="testimonial">
@@ -146,7 +154,7 @@
     background-color: #ff4c6766 !important;
 ">
       <div class="container ">
-        <h2>How?</h2>
+        <h2 style="font-family: cursive;">How?</h2>
         <div id="carouselExampleCaptions" class="carousel slide ">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -219,6 +227,60 @@
     </div>
   </section>
 
+  <section>
+    <!-- <div class="container "> -->
+    <div class="album py-5 bg-body-tertiary">
+      <h2 class="fw-light text-center ">Whant to learn more?</h2>
+      <h3 class="fw-light text-center mb-4">Head to our published papers:</h3>
+      <div class="container">
+
+        <div class="row ">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/Paper1.png" class="mx-auto d-block" height="300px" />
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg> -->
+              <div class="card-body">
+                <p class="card-text">In this paper, we present the fundamental concepts of the WIDMApp approach,
+                  validating it on a Monte Carlo toy model.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <button type="button" onclick="redirectToSite1()" class="btn btn-primary">Read on Pubmed</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/Paper2.png" class="mx-auto d-block" height="300px" />
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg> -->
+              <div class="card-body">
+                <p class="card-text">In this paper we present first experimental validation of the WIDMApp approach,
+                  obtained on a NEMA phantom filled with 3 different radio isotopes.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <button type="button" onclick="redirectToSite2()" class="btn  btn-primary">Read on Pubmed</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- </div> -->
+    </div>
+    </div>
+
+
+  </section>
 
   <section>
     <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">

@@ -116,5 +116,9 @@
 h2 {
   font-size: 4rem;
   margin-bottom: 20px;
-  font-family: cursive;
+  /* font-family: cursive; */
+}
+
+.card-text {
+  font-size: 25px;
 }
