@@ -113,10 +113,12 @@
   width: 100% !important;
 } */
 
-#how {
-  font-size: 4rem;
+h2 {
+  font-size: 3rem;
   margin-bottom: 20px;
-  font-family: cursive;
+  margin-left: 5px;
+  margin-right: 5px;
+  /* font-family: cursive; */
   /* font-family: cursive; */
 }
 
