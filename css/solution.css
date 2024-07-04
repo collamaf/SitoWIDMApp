@@ -29,6 +29,22 @@
   height: 100px;
 }
 
-.h1 {
+/* .h1 {
   color: "red" !important
+} */
+
+.figure-caption {
+  font-size: 25px;
 }
+
+.my-carousel-wide {
+  width: 600px;
+}
+
+.carousel-caption {
+  color: "red";
+}
+
+/* .carousel .item.left img{
+  width: 100% !important;
+} */
